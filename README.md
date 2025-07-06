@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Personal Task Tracker 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+##  Description
 
-In the project directory, you can run:
+A simple task management app built with React and Tailwind CSS. Users can log in using just a username, add/edit/delete tasks, mark them as complete, and filter or search through tasks. All task data is saved using localStorage. The app also includes a dark mode toggle.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Login with username (no password)
+- Add tasks with:
+  - Title
+  - Description (optional)
+  - Priority (Low / Medium / High)
+  - Due Date 
+- Edit or delete tasks
+- Mark tasks as completed or uncompleted
+- Filter tasks (All / Completed / Pending)
+- Search tasks by title
+- Dark mode toggle (remembers your choice)
+- All data saved locally using localStorage
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Setup Instructions
 
-### `npm run build`
+1. Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```
+    git clone https://github.com/your-username/task-tracker.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open the project folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```
+    cd task-tracker
+    ```
 
-### `npm run eject`
+3. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open in your browser
 
-## Learn More
+    ```
+    http://localhost:3000
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+##  Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js
+- Tailwind CSS
+- JavaScript
+- LocalStorage
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##  Live Demo
 
-### Making a Progressive Web App
+[Click here to try it out]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+##  Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+###  Dashboard (Light Mode)
+![Dashboard Light](./screenshots/Dashboard-Light.png)
 
-### Deployment
+###  Dashboard (Dark Mode)
+![Dashboard Dark](./screenshots/Dashboard-dark.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Task Edit Inline
+![Task Edit](./screenshots/TaskEdit.png)
 
-### `npm run build` fails to minify
+### Task Search
+![Task Search](./screenshots/TaskSearch.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##  Author
+
+Built by **Suman Sinha** as part of an internship assignment.
