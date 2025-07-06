@@ -30,7 +30,7 @@ A simple task management app built with React and Tailwind CSS. Users can log in
 1. Clone the repository
 
     ```
-    git clone https://github.com/your-username/task-tracker.git
+    git clone https://github.com/sumansinha1729/Task-Tracker.git
     ```
 
 2. Open the project folder
@@ -81,7 +81,7 @@ A simple task management app built with React and Tailwind CSS. Users can log in
 ![Dashboard Light](./screenshots/Dashboard-Light.png)
 
 ###  Dashboard (Dark Mode)
-![Dashboard Dark](./screenshots/Dashboard-dark.png)
+![Dashboard Dark](./screenshots/Dashboard-Dark.png)
 
 ### Task Edit Inline
 ![Task Edit](./screenshots/TaskEdit.png)
